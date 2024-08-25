@@ -313,50 +313,65 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Connect 4 AI
+        content: Play against a Connect 4 AI bot to test your skills!
+        image: /images/projects/connect4.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Play
+          link: "/connect4/"
+        badges:
+          - "Node"
+          - "Express"
+          - "Javascript"
+          - "AI"
+          - "Game"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AutomationMusician/connect-4-ai-801
+      - title: Super Bowl Quiz
+        content: Who can get the win the most Super Bowl prop bets?
+        image: /images/projects/super-bowl-quiz.png
+        featured:
+          name: Coming back in 2025
+          # link: https://django-converter.herokuapp.com
+        badges:
+          - "Node"
+          - "Express"
+          - "Typescript"
+          - "Postgres"
+          - "Game"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AutomationMusician/SuperBowlQuiz
+      - title: Website Orchestrator
+        content: Orchestration and networking configuration for running this website on my Raspberry Pi from home.
+        image: https://upload.wikimedia.org/wikipedia/commons/7/7d/23551-raspberry-pi-5.jpg
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "DuckDNS"
+          - "Docker"
+          - "Docker Compose"
+          - "Traefik"
+          - "Let's Encrypt"
+          - "Raspberry Pi"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/AutomationMusician/website-orchestrator
+      - title: Personal Site
+        content: The source code for this website.
+        image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_of_Hugo_the_static_website_generator.svg/1920px-Logo_of_Hugo_the_static_website_generator.svg.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
         badges:
           - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
+          - "Hugo-profile"
+          - "Nginx"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/AutomationMusician/personal-site
 
   #Contact
   contact:
