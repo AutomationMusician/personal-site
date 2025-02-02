@@ -332,8 +332,8 @@ params:
         content: Who can get the win the most Super Bowl prop bets?
         image: /images/projects/super-bowl-quiz.png
         featured:
-          name: Coming back in 2025
-          # link: https://django-converter.herokuapp.com
+          name: Play
+          link: "/super-bowl-quiz/"
         badges:
           - "Node"
           - "Express"
