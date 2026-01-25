@@ -5,6 +5,9 @@ draft: false
 author: "Joshua Fishman"
 image: /images/blog/5-years-at-lm.jpg
 description: "Celebrating 5 Years at Lockheed Martin"
+tags: 
+    - work
+    - anniversary
 toc: 
 ---
 
